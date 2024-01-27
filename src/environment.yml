@@ -1,0 +1,10 @@
+name: browser_app_env
+channels:
+  - defaults
+dependencies:
+  - python=3.8 # You can specify your preferred Python version here
+  - pip
+  - pip:
+      - PyQt5==5.15.4
+      - PyQtWebEngine==5.15.4
+      - requests==2.25.1
